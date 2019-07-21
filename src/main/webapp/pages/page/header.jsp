@@ -1,4 +1,4 @@
-<%--<%@ taglib prefix="date" uri="/tags" %>--%>
+<%@ taglib prefix="date" uri="/tags" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <!-- 头部起始 -->
