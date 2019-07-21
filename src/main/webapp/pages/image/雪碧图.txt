@@ -1,0 +1,59 @@
+.容联 {
+    width: 191px;
+    height: 191px;
+    background-position: -17px -152px;
+}
+
+.阿里巴巴 {
+    width: 184px;
+    height: 184px;
+    background-position: -399px -130px;
+}
+
+.金山云 {
+    width: 237px;
+    height: 137px;
+    background-position: -9px -456px;
+}
+
+.骑牛云 {
+    width: 124px;
+    height: 124px;
+    background-position: -246px -306px;
+}
+
+.环信 {
+    width: 134px;
+    height: 69px;
+    background-position: -459px -515px;
+}
+
+.高效 {
+    width: 43px;
+    height: 62px;
+    background-position: -28px -19px;
+}
+
+.人脉 {
+    width: 52px;
+    height: 55px;
+    background-position: -156px -26px;
+}
+
+.规范 {
+    width: 60px;
+    height: 48px;
+    background-position: -284px -33px;
+}
+
+.箭头 {
+    width: 32px;
+    height: 30px;
+    background-position: -524px -51px;
+}
+
+.头像 {
+    width: 13px;
+    height: 13px;
+    background-position: -431px -68px;
+}

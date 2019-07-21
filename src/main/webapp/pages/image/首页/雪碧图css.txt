@@ -1,0 +1,17 @@
+.1 {
+    width: 25px;
+    height: 24px;
+    background-position: -0px -0px;
+}
+
+.2 {
+    width: 25px;
+    height: 24px;
+    background-position: -0px -95px;
+}
+
+.3 {
+    width: 25px;
+    height: 24px;
+    background-position: -0px -189px;
+}

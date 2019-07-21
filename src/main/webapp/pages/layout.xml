@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="base" template="page.jsp">
+        <put-attribute name="title" value="Tiles tutorial homepage" />
+        <put-attribute name="header" value="/pages/page/header.jsp" />
+        <put-attribute name="menu" value="/pages/page/menu.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/pages/page/footer.jsp" />
+    </definition>
+
+    <definition name="home_page" extends="base">
+        <put-attribute name="title" value="zhuye" />
+        <put-attribute name="body" value="/pages/page/home_body.jsp" />
+    </definition>
+
+    <definition name="job_page" extends="base">
+        <put-attribute name="title" value="job" />
+        <put-attribute name="body" value="/pages/page/job_body.jsp" />
+    </definition>
+</tiles-definitions>
