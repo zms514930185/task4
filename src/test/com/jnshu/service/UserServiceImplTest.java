@@ -18,4 +18,6 @@ class UserServiceImplTest {
         user.setId(1L);
         logger.info(userService.selectUserSelective(user));
     }
+
+
 }

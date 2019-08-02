@@ -19,7 +19,7 @@ public class JobController {
     @Autowired
     JobService jobService;
 
-    @RequestMapping(value = "/job",method = RequestMethod.GET)
+    @RequestMapping(value = "/u/job",method = RequestMethod.GET)
     public String selectJob(Model model,Integer category){
         Job job=new Job();
         job.setCategory(category);

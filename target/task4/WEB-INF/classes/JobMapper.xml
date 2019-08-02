@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jnshu.mapper.JobMapper">
+  <resultMap id="BaseResultMap" type="com.jnshu.model.Job">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="money" jdbcType="VARCHAR" property="money" />
+    <result column="category" jdbcType="INTEGER" property="category" />
+    <result column="degree" jdbcType="INTEGER" property="degree" />
+    <result column="threshold" jdbcType="INTEGER" property="threshold" />
+    <result column="growth_stage" jdbcType="INTEGER" property="growthStage" />
+    <result column="ipo" jdbcType="VARCHAR" property="ipo" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="img" jdbcType="VARCHAR" property="img" />
+    <result column="create_at" jdbcType="BIGINT" property="createAt" />
+    <result column="update_at" jdbcType="BIGINT" property="updateAt" />
+    <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, money, category, degree, threshold, growth_stage, ipo, num, img, create_at, 
+    update_at, create_by, update_by
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from job
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from job
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.jnshu.model.Job">
+    insert into job (id, name, money, 
+      category, degree, threshold, 
+      growth_stage, ipo, num, 
+      img, create_at, update_at, 
+      create_by, update_by)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{money,jdbcType=VARCHAR}, 
+      #{category,jdbcType=INTEGER}, #{degree,jdbcType=INTEGER}, #{threshold,jdbcType=INTEGER}, 
+      #{growthStage,jdbcType=INTEGER}, #{ipo,jdbcType=VARCHAR}, #{num,jdbcType=INTEGER}, 
+      #{img,jdbcType=VARCHAR}, #{createAt,jdbcType=BIGINT}, #{updateAt,jdbcType=BIGINT}, 
+      #{createBy,jdbcType=VARCHAR}, #{updateBy,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jnshu.model.Job">
+    insert into job
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="money != null">
+        money,
+      </if>
+      <if test="category != null">
+        category,
+      </if>
+      <if test="degree != null">
+        degree,
+      </if>
+      <if test="threshold != null">
+        threshold,
+      </if>
+      <if test="growthStage != null">
+        growth_stage,
+      </if>
+      <if test="ipo != null">
+        ipo,
+      </if>
+      <if test="num != null">
+        num,
+      </if>
+      <if test="img != null">
+        img,
+      </if>
+      <if test="createAt != null">
+        create_at,
+      </if>
+      <if test="updateAt != null">
+        update_at,
+      </if>
+      <if test="createBy != null">
+        create_by,
+      </if>
+      <if test="updateBy != null">
+        update_by,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="money != null">
+        #{money,jdbcType=VARCHAR},
+      </if>
+      <if test="category != null">
+        #{category,jdbcType=INTEGER},
+      </if>
+      <if test="degree != null">
+        #{degree,jdbcType=INTEGER},
+      </if>
+      <if test="threshold != null">
+        #{threshold,jdbcType=INTEGER},
+      </if>
+      <if test="growthStage != null">
+        #{growthStage,jdbcType=INTEGER},
+      </if>
+      <if test="ipo != null">
+        #{ipo,jdbcType=VARCHAR},
+      </if>
+      <if test="num != null">
+        #{num,jdbcType=INTEGER},
+      </if>
+      <if test="img != null">
+        #{img,jdbcType=VARCHAR},
+      </if>
+      <if test="createAt != null">
+        #{createAt,jdbcType=BIGINT},
+      </if>
+      <if test="updateAt != null">
+        #{updateAt,jdbcType=BIGINT},
+      </if>
+      <if test="createBy != null">
+        #{createBy,jdbcType=VARCHAR},
+      </if>
+      <if test="updateBy != null">
+        #{updateBy,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jnshu.model.Job">
+    update job
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="money != null">
+        money = #{money,jdbcType=VARCHAR},
+      </if>
+      <if test="category != null">
+        category = #{category,jdbcType=INTEGER},
+      </if>
+      <if test="degree != null">
+        degree = #{degree,jdbcType=INTEGER},
+      </if>
+      <if test="threshold != null">
+        threshold = #{threshold,jdbcType=INTEGER},
+      </if>
+      <if test="growthStage != null">
+        growth_stage = #{growthStage,jdbcType=INTEGER},
+      </if>
+      <if test="ipo != null">
+        ipo = #{ipo,jdbcType=VARCHAR},
+      </if>
+      <if test="num != null">
+        num = #{num,jdbcType=INTEGER},
+      </if>
+      <if test="img != null">
+        img = #{img,jdbcType=VARCHAR},
+      </if>
+      <if test="createAt != null">
+        create_at = #{createAt,jdbcType=BIGINT},
+      </if>
+      <if test="updateAt != null">
+        update_at = #{updateAt,jdbcType=BIGINT},
+      </if>
+      <if test="createBy != null">
+        create_by = #{createBy,jdbcType=VARCHAR},
+      </if>
+      <if test="updateBy != null">
+        update_by = #{updateBy,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jnshu.model.Job">
+    update job
+    set name = #{name,jdbcType=VARCHAR},
+      money = #{money,jdbcType=VARCHAR},
+      category = #{category,jdbcType=INTEGER},
+      degree = #{degree,jdbcType=INTEGER},
+      threshold = #{threshold,jdbcType=INTEGER},
+      growth_stage = #{growthStage,jdbcType=INTEGER},
+      ipo = #{ipo,jdbcType=VARCHAR},
+      num = #{num,jdbcType=INTEGER},
+      img = #{img,jdbcType=VARCHAR},
+      create_at = #{createAt,jdbcType=BIGINT},
+      update_at = #{updateAt,jdbcType=BIGINT},
+      create_by = #{createBy,jdbcType=VARCHAR},
+      update_by = #{updateBy,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectJobSelective" parameterType="com.jnshu.model.Job" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from job
+    <trim prefix="WHERE" prefixOverrides="AND|OR ">
+      <if test="id != null ">ID=#{id}</if>
+      <if test="name != null and name !=''">and name = #{name}</if>
+      <if test="category != null">and category = #{category}</if>
+      <if test="createBy !=null and createBy !=''">and create_by LIKE CONCAT('%',#{createBy},'%')</if>
+      <if test="updateBy !=null and updateBy !=''">and update_by = #{updateBy}</if>
+      <if test="createAt !=null ">and create_at = #{createAt}</if>
+      <if test="updateAt !=null ">and update_at = #{updateAt}</if>
+    </trim>
+  </select>
+</mapper>

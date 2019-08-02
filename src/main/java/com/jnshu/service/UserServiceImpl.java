@@ -15,4 +15,14 @@ public class UserServiceImpl implements UserService {
     public List<User> selectUserSelective(User user) {
         return userMapper.selectUserSelective(user);
     }
+
+    @Override
+    public int insert(User record) {
+        return userMapper.insert(record);
+    }
+
+    @Override
+    public int insertSelective(User record) {
+        return userMapper.insertSelective(record);
+    }
 }

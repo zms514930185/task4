@@ -23,6 +23,10 @@ public class User {
 
     private String updateBy;
 
+    private String account;
+
+    private String pwd;
+
     public Long getId() {
         return id;
     }
@@ -111,6 +115,22 @@ public class User {
         this.updateBy = updateBy == null ? null : updateBy.trim();
     }
 
+    public String getAccount() {
+        return account;
+    }
+
+    public void setAccount(String account) {
+        this.account = account;
+    }
+
+    public String getPwd() {
+        return pwd;
+    }
+
+    public void setPwd(String pwd) {
+        this.pwd = pwd;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -128,6 +148,8 @@ public class User {
         sb.append(", updateAt=").append(updateAt);
         sb.append(", createBy=").append(createBy);
         sb.append(", updateBy=").append(updateBy);
+        sb.append(", account=").append(account);
+        sb.append(", pwd=").append(pwd);
         sb.append("]");
         return sb.toString();
     }
