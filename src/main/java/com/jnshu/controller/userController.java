@@ -7,6 +7,7 @@ import com.jnshu.service.JobService;
 import com.jnshu.service.UserService;
 import com.jnshu.uitl.DesUitlImpl;
 import com.jnshu.uitl.JjwtImpl;
+import net.rubyeye.xmemcached.exception.MemcachedException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.BeanUtils;
@@ -26,6 +27,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.concurrent.TimeoutException;
 
 import static org.springframework.web.util.WebUtils.getCookie;
 
@@ -39,7 +41,7 @@ public class userController {
     JobService jobService;
 
     @RequestMapping(value = "/home", method = RequestMethod.GET)
-    public String selectUser(HttpServletRequest request,Model model) throws IllegalBlockSizeException, InvalidKeyException, BadPaddingException, NoSuchAlgorithmException, NoSuchPaddingException {
+    public String selectUser(HttpServletRequest request,Model model) throws IllegalBlockSizeException, InvalidKeyException, BadPaddingException, NoSuchAlgorithmException, NoSuchPaddingException, InterruptedException, MemcachedException, TimeoutException {
         /*获取请求里的cookie中的token*/
         Cookie userTokenCookie = getCookie(request, "userToken");
         /*如果有token，就获取里面的ID值*/

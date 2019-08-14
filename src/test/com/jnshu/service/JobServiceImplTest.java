@@ -4,40 +4,37 @@ import com.jnshu.model.Job;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.*;
 
+@ExtendWith(SpringExtension.class)
+@ContextConfiguration("classpath:applicationContext.xml")//加载配置文件
 class JobServiceImplTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-    private ApplicationContext zms = new ClassPathXmlApplicationContext("applicationContext.xml");
-    private JobService jobService = zms.getBean(JobService.class);
+    /*private ApplicationContext zms = new ClassPathXmlApplicationContext("applicationContext.xml");
+    private JobService jobService = zms.getBean(JobService.class);*/
+
+    @Autowired
+    JobService jobService;
 
     @Test
     void selectJobSelective() {
-
-        try {
-            Map map=new HashMap();
-            for (int i = 1; i < 10; i++) {
-                Job job = new Job();
-                job.setCategory(i);
-                List<Job> jobList = jobService.selectJobSelective(job);
-                if (jobList.isEmpty()) {
-                    break;
-                }else {
-                    map.put(i,jobList);
-                    //logger.info(jobList);
-                }
-            }
-            logger.info(map);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        Job job = new Job();
+        //job.setId(1L);
+        long time=System.currentTimeMillis();
+        List<Job> jobList = jobService.selectJobSelective(job);
+        logger.info("时间花费：{}——职业信息{}",System.currentTimeMillis()-time,jobList);
+        List<Job> jobList1 = jobService.selectJobSelective(job);
+        logger.info("时间花费：{}——职业信息{}",System.currentTimeMillis()-time,jobList);
     }
 }

@@ -8,9 +8,12 @@ com\jnshu\mapper\JobMapper.class
 com\jnshu\tag\dateTag.class
 com\jnshu\uitl\Jwt.class
 com\jnshu\mapper\UserMapper.class
+com\jnshu\service\UserServiceImpl$1.class
 com\jnshu\controller\UserTokenIDController.class
 com\jnshu\service\JobServiceImpl.class
 com\jnshu\service\UserServiceImpl.class
+com\jnshu\uitl\MemCache.class
+com\jnshu\controller\TestJmeterController.class
 com\jnshu\service\JobService.class
 com\jnshu\uitl\JjwtImpl.class
 com\jnshu\controller\JobController.class

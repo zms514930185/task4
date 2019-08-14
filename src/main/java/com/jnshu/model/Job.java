@@ -1,6 +1,8 @@
 package com.jnshu.model;
 
-public class Job {
+import java.io.Serializable;
+
+public class Job implements Serializable {
     private Long id;
 
     private String name;
