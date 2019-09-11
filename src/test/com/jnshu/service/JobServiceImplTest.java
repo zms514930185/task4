@@ -30,11 +30,20 @@ class JobServiceImplTest {
     @Test
     void selectJobSelective() {
         Job job = new Job();
-        //job.setId(1L);
+        job.setId(11L);
+        /*job.setCategory(1);*/
         long time=System.currentTimeMillis();
         List<Job> jobList = jobService.selectJobSelective(job);
-        logger.info("时间花费：{}——职业信息{}",System.currentTimeMillis()-time,jobList);
+        long time1=System.currentTimeMillis()-time;
+        logger.info("时间花费：{}——职业信息{}",time1,jobList);
         List<Job> jobList1 = jobService.selectJobSelective(job);
-        logger.info("时间花费：{}——职业信息{}",System.currentTimeMillis()-time,jobList);
+        long time2=System.currentTimeMillis()-time1-time;
+        logger.info("时间花费：{}——职业信息{}",time2,jobList1);
+    }
+
+    @Test
+    void deleteByPrimaryKey(){
+        long id=11L;
+        jobService.deleteByPrimaryKey(id);
     }
 }

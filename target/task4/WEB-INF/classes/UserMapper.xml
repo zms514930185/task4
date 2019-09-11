@@ -15,9 +15,11 @@
         <result column="update_by" jdbcType="VARCHAR" property="updateBy"/>
         <result column="account" jdbcType="VARCHAR" property="account"/>
         <result column="pwd" jdbcType="VARCHAR" property="pwd"/>
+        <result column="phone" jdbcType="VARCHAR" property="phone"/>
+        <result column="mail" jdbcType="VARCHAR" property="mail"/>
     </resultMap>
     <sql id="Base_Column_List">
-    id, name, img, ipo, status, job_id, progress, create_at, update_at, create_by, update_by,account,pwd
+    id, name, img, ipo, status, job_id, progress, create_at, update_at, create_by, update_by,account,pwd,phone,mail
   </sql>
     <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
         select
@@ -75,6 +77,7 @@
             </if>
             <if test=" account != null">account,</if>
             <if test="pwd != null">pwd,</if>
+            <if test="phone != null">phone,</if>
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
             <if test="id != null">
@@ -110,6 +113,7 @@
             </if>
             <if test="account != null">#{account,jdbcType=VARCHAR},</if>
             <if test="pwd != null">#{pwd,jdbcType=VARCHAR},</if>
+            <if test="phone != null">#{phone,jdbcType=VARCHAR},</if>
         </trim>
     </insert>
     <update id="updateByPrimaryKeySelective" parameterType="com.jnshu.model.User">
@@ -181,6 +185,8 @@
             <if test="updateAt !=null ">and update_at = #{updateAt}</if>
             <if test="account != null and account !=''">and account = #{account}</if>
             <if test="pwd != null and pwd !=''">and pwd = #{pwd}</if>
+            <if test="phone != null and phone !=''">and phone = #{phone}</if>
+            <if test="mail != null and mail !=''">and mail = #{mail}</if>
         </trim>
     </select>
 </mapper>

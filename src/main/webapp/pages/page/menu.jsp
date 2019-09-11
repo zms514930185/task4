@@ -26,6 +26,9 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="/u/job">职业</a>
                         </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/u/user">个人信息</a>
+                        </li>
                         <%--
                         <li class="nav-item active">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">关于</a>

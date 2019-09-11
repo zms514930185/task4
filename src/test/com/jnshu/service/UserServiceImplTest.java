@@ -26,7 +26,7 @@ public class UserServiceImplTest {
     @Test
     public void selectUserSelective() throws InterruptedException, MemcachedException, TimeoutException {
         User user=new User();
-        //user.setId(1L);
+        user.setId(1L);
         logger.info(userService.selectUserSelective(user));
     }
 }

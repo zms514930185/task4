@@ -26,6 +26,24 @@ public class User {
     private String account;
 
     private String pwd;
+    private String phone;
+    private String mail;
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
 
     public Long getId() {
         return id;
@@ -150,6 +168,8 @@ public class User {
         sb.append(", updateBy=").append(updateBy);
         sb.append(", account=").append(account);
         sb.append(", pwd=").append(pwd);
+        sb.append(", phone=").append(phone);
+        sb.append(", mail=").append(mail);
         sb.append("]");
         return sb.toString();
     }

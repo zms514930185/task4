@@ -20,4 +20,14 @@
         <put-attribute name="title" value="job" />
         <put-attribute name="body" value="/pages/page/job_body.jsp" />
     </definition>
+
+    <definition name="img_page" extends="base">
+        <put-attribute name="title" value="img" />
+        <put-attribute name="body" value="/pages/page/img_body.jsp" />
+    </definition>
+
+    <definition name="user_page" extends="base">
+        <put-attribute name="title" value="user" />
+        <put-attribute name="body" value="/pages/page/user_body.jsp" />
+    </definition>
 </tiles-definitions>

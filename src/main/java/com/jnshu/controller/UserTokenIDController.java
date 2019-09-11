@@ -2,8 +2,7 @@ package com.jnshu.controller;
 
 import com.jnshu.model.User;
 import com.jnshu.service.UserService;
-import com.jnshu.uitl.DesUitlImpl;
-import com.jnshu.uitl.JjwtImpl;
+import com.jnshu.uitl.token.Token;
 import net.rubyeye.xmemcached.exception.MemcachedException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -18,11 +17,9 @@ import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
-
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.List;
-import java.util.Objects;
 import java.util.concurrent.TimeoutException;
 
 import static org.springframework.web.util.WebUtils.getCookie;
@@ -43,24 +40,14 @@ public class UserTokenIDController {
         Cookie userTokenCookie = getCookie(request, "userToken");
         /*如果有token，就获取里面的ID值*/
         if(userTokenCookie!=null){
-            /*获取Token*/
-            String userToken= Objects.requireNonNull(userTokenCookie).getValue();
-            JjwtImpl jjwt=new JjwtImpl();
-            /*解密token,获取到加密后的Token值*/
-            String userEnId= (String) jjwt.jjwtTokenDe(userToken).get("id");
-            /*进行解密,使用解密方法*/
-            DesUitlImpl desUitl=new DesUitlImpl();
-            String userIdDe=desUitl.decrypt(userEnId);
-            /*把id值从String转成long*/
-            long userId = Long.parseLong(userIdDe);
-            /*查询对应的ID值的数据*/
+            Token token=new Token();
+            /*获取token里的对象*/
+            long userId = token.token(userTokenCookie);
             User user=new User();
             user.setId(userId);
             List<User> userList=userService.selectUserSelective(user);
             /*获取名字*/
-            String userName=userList.get(0).getName();
-            logger.info("当前登入的用户：{}",userName);
-            model.addAttribute("userName",userName);
+            logger.info("当前登入的用户：{}",userList.get(0).getName());
         }
     }
 }

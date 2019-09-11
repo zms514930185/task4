@@ -2,88 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="006196f0-f71a-4278-8b6b-06df69d80c33" name="Default Changelist" comment="tag标签起用">
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/debug-2019-07-22-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/debug-2019-07-23-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/debug-2019-07-24-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/debug-2019-07-25-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/debug-2019-07-26-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/debug-2019-07-27-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/debug-2019-07-29-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/debug-2019-07-30-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/debug-2019-07-31-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/error-2019-07-29-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/info-2019-07-22-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/info-2019-07-23-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/info-2019-07-24-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/info-2019-07-25-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/info-2019-07-26-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/info-2019-07-27-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/info-2019-07-29-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/info-2019-07-30-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-07/info-2019-07-31-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-08/debug-2019-08-01-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2019-08/info-2019-08-01-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/TestJmeterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/MemCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/xmemcached.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/xmemcached.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/jnshu/uitl/MemCacheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/jnshu/uitl/redisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/ImgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/service/CheckNumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/service/CheckNumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/TencentCloudCos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/encoder/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/encoder/SMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/token/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/img.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/page/img_body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/page/user_body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/jnshu/service/CheckNumServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/jnshu/uitl/encoder/SMSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-07/debug-2019-07-20-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-07/info-2019-07-20-1.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/warn.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/CookisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/CookisController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/UserTokenIDController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/UserTokenIDController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/userController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/model/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/model/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/service/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/service/JobService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/service/JobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/service/JobServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/mvc-dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mvc-dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/page/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/page/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/page/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/page/menu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/jnshu/service/JobServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jnshu/service/JobServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/jnshu/service/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jnshu/service/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jnshu/service/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jnshu/service/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jnshu/uitl/DesUitlImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jnshu/uitl/DesUitlImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jnshu/uitl/JjwtImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jnshu/uitl/JjwtImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jnshu/uitl/JwtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jnshu/uitl/JwtTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jnshu/uitl/redisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jnshu/uitl/redisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ROOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jnshu/controller/CookisController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jnshu/controller/CookisController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jnshu/controller/UserTokenIDController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jnshu/controller/UserTokenIDController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jnshu/controller/userController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jnshu/controller/userController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jnshu/model/Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jnshu/model/Job.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jnshu/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jnshu/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jnshu/service/JobService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jnshu/service/JobService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jnshu/service/JobServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jnshu/service/JobServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jnshu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jnshu/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jnshu/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jnshu/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/controller/CookisController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/controller/CookisController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/controller/UserTokenIDController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/controller/UserTokenIDController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/controller/userController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/controller/userController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/model/Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/model/Job.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/service/JobService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/service/JobService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/service/JobServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/service/JobServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/com/jnshu/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/jackson-core-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/jackson-databind-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/spring-aop-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/spring-beans-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/spring-context-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/spring-context-support-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/spring-core-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/spring-expression-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/spring-jcl-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/spring-jdbc-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/spring-tx-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/spring-web-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/lib/spring-webmvc-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/task4/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/task4/mvc-dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/mvc-dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/task4/pages/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/pages/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/task4/pages/layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/pages/layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/task4/pages/page/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/pages/page/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/task4/pages/page/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/task4/pages/page/menu.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,6 +85,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -110,65 +106,37 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="task4" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/userController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3148">
+              <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/page/user_body.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/redis.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/uitl/TencentCloudCos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="160" column="31" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/service/JobServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/JobController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="22" column="56" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/jnshu/service/JobServiceImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/service/JobService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="60">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -180,20 +148,17 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="Jsp File" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
-        <option value="FxmlFile" />
-        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>c</find>
-      <find>holler</find>
-      <find>hello</find>
       <find>com.jnshu.studio.mapper</find>
       <find>测试</find>
       <find>·</find>
@@ -214,6 +179,16 @@
       <find>jac</find>
       <find>aspectj</find>
       <find>son</find>
+      <find>content</find>
+      <find>mysq</find>
+      <find>Header</find>
+      <find>188110</find>
+      <find>hellp</find>
+      <find>Conversion</find>
+      <find>getOriginalFilename</find>
+      <find>2.4</find>
+      <find>选择</find>
+      <find>userName</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -229,57 +204,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$USER_HOME$/OneDrive/jnshu/小课堂/NEW-JAVA-master/20190819-A-JAVA-6.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/JobService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/redis.xml" />
+        <option value="$PROJECT_DIR$/src/test/com/jnshu/service/JobServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/encoder/BASE64Decoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/CCPRestSDK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/cloopen/rest/sdk/utils/encoder/BASE64Decoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/cloopen/rest/demo/SDKTestSendTemplateSMS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/encoder/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jnshu/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/DesUitl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/DesUitlImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/CheckMapperService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/model/Check.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/CheckMapperServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/mapper/CheckMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/com/jnshu/service/CheckMapperServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/jnshu/service/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/JobServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/com/jnshu/uitl/encoder/SMSTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/CheckMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/mapper/CheckNumMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/CheckNumService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/encoder/SMS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/CheckNumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/CheckNumMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/com/jnshu/service/CheckNumServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/hello.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/Jwt.java" />
-        <option value="$USER_HOME$/OneDrive/jnshu/小课堂/NEW-JAVA-master/20190729-A-JAVA-4.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/layout.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/DesUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/jjwt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/jjwtImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/userTokenID.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/userTokenIDController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/Jjwt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/JjwtImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/CookisController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/ApiInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/page/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/page/menu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/spymemcached.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/SpyMemcachedManager.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/app-context-spymemcached.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/MemCache.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/xmemcached.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/xmemcached.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/UserTokenIDController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/userController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/TestJmeterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/com/jnshu/service/test.java" />
-        <option value="$PROJECT_DIR$/src/test/com/jnshu/uitl/DesUitlImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/jnshu/uitl/JjwtImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/jnshu/uitl/JwtTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/jnshu/uitl/MemCacheTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/redis.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
-        <option value="$PROJECT_DIR$/src/test/com/jnshu/uitl/redisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/page/img.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/mvc-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/redisTest.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/model/Job.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/JobController.java" />
-        <option value="$PROJECT_DIR$/src/test/com/jnshu/service/UserServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/jnshu/service/JobServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/JobServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/img.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/web/jquery-3.2.1.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/page/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/token/Token.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/UserTokenIDController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/page/img_body.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/layout.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/page/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/ImgController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/page/user_body.jsp" />
+        <option value="$PROJECT_DIR$/src/test/com/jnshu/uitl/redisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/uitl/TencentCloudCos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/userController.java" />
       </list>
     </option>
   </component>
@@ -320,15 +295,21 @@
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="jetty" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="task4 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="121" />
-    <option name="y" value="35" />
-    <option name="width" value="1419" />
-    <option name="height" value="848" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="87" />
+    <option name="y" value="-11" />
+    <option name="width" value="1554" />
+    <option name="height" value="524" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -338,7 +319,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -349,6 +329,11 @@
             <path>
               <item name="task4" type="b2602c69:ProjectViewProjectNode" />
               <item name="task4" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,46 +365,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jnshu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
-              <item name="uitl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task4" type="b2602c69:ProjectViewProjectNode" />
@@ -437,47 +382,58 @@
             </path>
             <path>
               <item name="task4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="task4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.qcloud:cos_api:5.6.7" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="task4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.qcloud:cos_api:5.6.7" type="70bed36:NamedLibraryElementNode" />
+              <item name="cos_api-5.6.7.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.qcloud:cos_api:5.6.7" type="70bed36:NamedLibraryElementNode" />
+              <item name="cos_api-5.6.7.jar" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.qcloud:cos_api:5.6.7" type="70bed36:NamedLibraryElementNode" />
+              <item name="cos_api-5.6.7.jar" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+              <item name="qcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.qcloud:cos_api:5.6.7" type="70bed36:NamedLibraryElementNode" />
+              <item name="cos_api-5.6.7.jar" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="qcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.qcloud:cos_api:5.6.7" type="70bed36:NamedLibraryElementNode" />
+              <item name="cos_api-5.6.7.jar" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
-              <item name="uitl" type="462c0819:PsiDirectoryNode" />
+              <item name="qcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cos" type="462c0819:PsiDirectoryNode" />
+              <item name="transfer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -489,42 +445,43 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/com/jnshu/service" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.jnshu.uitl" />
+      <recent name="com.jnshu.uitl.encoder" />
       <recent name="com.jnshu.service" />
+      <recent name="com.jnshu.uitl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\task4\src\main\java\com\jnshu\uitl\redis" />
-      <recent name="D:\task4\src\main\webapp\pages\image\学员展示" />
-      <recent name="D:\task4\src\main\webapp\pages\page" />
-      <recent name="D:\task4\src\main\webapp\pages" />
-      <recent name="D:\task4\src\main\webapp\WEB-INF" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.jnshu" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\task4\src\main\resources" />
+      <recent name="D:\task4\src\main\java\com\jnshu\uitl" />
+      <recent name="D:\task4\src\main\java\com" />
+      <recent name="D:\task4\src\main\java\com\jnshu\uitl\encoder" />
+      <recent name="D:\task4\src\test\com\jnshu\service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.jnshu.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\task4\src\test\com\jnshu\service" />
-      <recent name="D:\task4\src\main\resources" />
-      <recent name="D:\task4\src\main\webapp\pages\page" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\task4\src\main\webapp\pages" />
-      <recent name="D:\task4\src\main\webapp\pages\task8\html" />
+      <recent name="D:\task4\src\main\java\com\jnshu\uitl\redis" />
+      <recent name="D:\task4\src\main\webapp\pages\image\学员展示" />
+      <recent name="D:\task4\src\main\webapp\pages\page" />
+      <recent name="D:\task4\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -539,8 +496,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JobServiceImplTest.selectJobSelective">
-    <configuration name="JobServiceImplTest.selectJobSelective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.redisTest.qCloud">
+    <configuration name="CheckNumServiceImplTest.selectSelective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task4" />
       <extension name="coverage">
         <pattern>
@@ -549,14 +506,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jnshu.service" />
-      <option name="MAIN_CLASS_NAME" value="com.jnshu.service.JobServiceImplTest" />
-      <option name="METHOD_NAME" value="selectJobSelective" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.service.CheckNumServiceImplTest" />
+      <option name="METHOD_NAME" value="selectSelective" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckNumServiceImplTest.updateCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task4" />
       <extension name="coverage">
         <pattern>
@@ -565,29 +522,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jnshu.service" />
-      <option name="MAIN_CLASS_NAME" value="com.jnshu.service.UserServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImplTest.selectUserSelective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jnshu.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jnshu.service" />
-      <option name="MAIN_CLASS_NAME" value="com.jnshu.service.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="selectUserSelective" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.service.CheckNumServiceImplTest" />
+      <option name="METHOD_NAME" value="updateCheck" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="redisTest.redis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="redisTest.date235959" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task4" />
       <extension name="coverage">
         <pattern>
@@ -597,13 +539,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.jnshu.uitl" />
       <option name="MAIN_CLASS_NAME" value="com.jnshu.uitl.redisTest" />
-      <option name="METHOD_NAME" value="redis" />
+      <option name="METHOD_NAME" value="date235959" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="redisTest.redisSpring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="redisTest.pattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task4" />
       <extension name="coverage">
         <pattern>
@@ -613,7 +555,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.jnshu.uitl" />
       <option name="MAIN_CLASS_NAME" value="com.jnshu.uitl.redisTest" />
-      <option name="METHOD_NAME" value="redisSpring" />
+      <option name="METHOD_NAME" value="pattern" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="redisTest.qCloud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.uitl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jnshu.uitl" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.uitl.redisTest" />
+      <option name="METHOD_NAME" value="qCloud" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -621,11 +579,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JobServiceImplTest.selectJobSelective" />
-        <item itemvalue="JUnit.UserServiceImplTest.selectUserSelective" />
-        <item itemvalue="JUnit.redisTest.redisSpring" />
-        <item itemvalue="JUnit.redisTest.redis" />
-        <item itemvalue="JUnit.UserServiceImplTest (3)" />
+        <item itemvalue="JUnit.redisTest.qCloud" />
+        <item itemvalue="JUnit.redisTest.pattern" />
+        <item itemvalue="JUnit.CheckNumServiceImplTest.selectSelective" />
+        <item itemvalue="JUnit.CheckNumServiceImplTest.updateCheck" />
+        <item itemvalue="JUnit.redisTest.date235959" />
       </list>
     </recent_temporary>
   </component>
@@ -682,7 +640,37 @@
       <workItem from="1565486037938" duration="11787000" />
       <workItem from="1565572195844" duration="17247000" />
       <workItem from="1565663261965" duration="8301000" />
-      <workItem from="1565744512424" duration="11042000" />
+      <workItem from="1565744512424" duration="11637000" />
+      <workItem from="1565927447358" duration="618000" />
+      <workItem from="1565949980640" duration="599000" />
+      <workItem from="1565962680925" duration="2190000" />
+      <workItem from="1566177313743" duration="13058000" />
+      <workItem from="1566213852820" duration="3421000" />
+      <workItem from="1566262914584" duration="6373000" />
+      <workItem from="1566299989273" duration="2042000" />
+      <workItem from="1566349016675" duration="17525000" />
+      <workItem from="1566436307230" duration="20773000" />
+      <workItem from="1566522360967" duration="9424000" />
+      <workItem from="1566543291058" duration="6885000" />
+      <workItem from="1566611470875" duration="3839000" />
+      <workItem from="1566721324328" duration="1205000" />
+      <workItem from="1566784464006" duration="9674000" />
+      <workItem from="1566838325247" duration="1451000" />
+      <workItem from="1566867758203" duration="2246000" />
+      <workItem from="1566956817837" duration="6110000" />
+      <workItem from="1567077973281" duration="5281000" />
+      <workItem from="1567127059845" duration="17552000" />
+      <workItem from="1567213463690" duration="18605000" />
+      <workItem from="1567386290076" duration="24291000" />
+      <workItem from="1567473004758" duration="25126000" />
+      <workItem from="1567517528314" duration="599000" />
+      <workItem from="1567560524551" duration="19684000" />
+      <workItem from="1567645584194" duration="20390000" />
+      <workItem from="1567731658484" duration="594000" />
+      <workItem from="1567732294234" duration="6833000" />
+      <workItem from="1567991277216" duration="21900000" />
+      <workItem from="1568078121193" duration="22201000" />
+      <workItem from="1568163485054" duration="10030000" />
     </task>
     <task id="LOCAL-00001" summary="更新依赖">
       <created>1563738304444</created>
@@ -705,43 +693,50 @@
       <option name="project" value="LOCAL" />
       <updated>1564708006492</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="任务6 缓存">
+      <created>1565787669512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565787669512</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JobServiceImplTest_selectJobSelective - 2019.08.14 at 10h 43m 56s.xml">
-      <configuration name="JobServiceImplTest.selectJobSelective" configurationId="JUnit" />
+    <history-entry file="redisTest_pattern - 2019.09.04 at 20h 16m 09s.xml">
+      <configuration name="redisTest.pattern" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobServiceImplTest_selectJobSelective - 2019.08.14 at 11h 43m 18s.xml">
-      <configuration name="JobServiceImplTest.selectJobSelective" configurationId="JUnit" />
+    <history-entry file="redisTest_pattern - 2019.09.04 at 20h 17m 29s.xml">
+      <configuration name="redisTest.pattern" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobServiceImplTest_selectJobSelective - 2019.08.14 at 11h 44m 08s.xml">
-      <configuration name="JobServiceImplTest.selectJobSelective" configurationId="JUnit" />
+    <history-entry file="redisTest_pattern - 2019.09.04 at 20h 17m 55s.xml">
+      <configuration name="redisTest.pattern" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobServiceImplTest_selectJobSelective - 2019.08.14 at 15h 52m 43s.xml">
-      <configuration name="JobServiceImplTest.selectJobSelective" configurationId="JUnit" />
+    <history-entry file="redisTest_pattern - 2019.09.04 at 20h 37m 13s.xml">
+      <configuration name="redisTest.pattern" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobServiceImplTest_selectJobSelective - 2019.08.14 at 15h 53m 25s.xml">
-      <configuration name="JobServiceImplTest.selectJobSelective" configurationId="JUnit" />
+    <history-entry file="redisTest_pattern - 2019.09.05 at 09h 22m 42s.xml">
+      <configuration name="redisTest.pattern" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest_selectUserSelective - 2019.08.14 at 19h 28m 26s.xml">
-      <configuration name="UserServiceImplTest.selectUserSelective" configurationId="JUnit" />
+    <history-entry file="redisTest_qCloud - 2019.09.10 at 11h 21m 22s.xml">
+      <configuration name="redisTest.qCloud" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobServiceImplTest_selectJobSelective - 2019.08.14 at 19h 29m 28s.xml">
-      <configuration name="JobServiceImplTest.selectJobSelective" configurationId="JUnit" />
+    <history-entry file="redisTest_qCloud - 2019.09.10 at 11h 24m 05s.xml">
+      <configuration name="redisTest.qCloud" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobServiceImplTest_selectJobSelective - 2019.08.14 at 19h 31m 04s.xml">
-      <configuration name="JobServiceImplTest.selectJobSelective" configurationId="JUnit" />
+    <history-entry file="redisTest_qCloud - 2019.09.10 at 11h 43m 22s.xml">
+      <configuration name="redisTest.qCloud" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobServiceImplTest_selectJobSelective - 2019.08.14 at 19h 31m 28s.xml">
-      <configuration name="JobServiceImplTest.selectJobSelective" configurationId="JUnit" />
+    <history-entry file="redisTest_qCloud - 2019.09.10 at 11h 43m 50s.xml">
+      <configuration name="redisTest.qCloud" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobServiceImplTest_selectJobSelective - 2019.08.14 at 19h 32m 54s.xml">
-      <configuration name="JobServiceImplTest.selectJobSelective" configurationId="JUnit" />
+    <history-entry file="redisTest_qCloud - 2019.09.11 at 11h 39m 21s.xml">
+      <configuration name="redisTest.qCloud" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385921000" />
+    <option name="totallyTimeSpent" value="687035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -753,42 +748,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="105" width="1419" height="811" extended-state="1" />
-    <editor active="true" />
+    <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24503312" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49744245" visible="true" weight="0.22690763" />
+      <window_info id="Structure" order="1" sideWeight="0.5025575" side_tool="true" weight="0.2188755" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Alibaba Cloud Explorer" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50127876" side_tool="true" weight="0.2188755" />
+      <window_info id="Alibaba Cloud Explorer" order="7" sideWeight="0.49872124" weight="0.32931727" />
+      <window_info id="Web" order="8" sideWeight="0.5025575" side_tool="true" weight="0.2188755" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286445" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5268542" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4590793" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32992327" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32736573" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4590793" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4986613" weight="0.32097188" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.32992327" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.39252338" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50066936" side_tool="true" weight="0.3286445" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32950193" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49933067" weight="0.3286445" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50133866" side_tool="true" weight="0.3516624" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32950193" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49933067" weight="0.3277311" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.39130434" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="14" weight="0.32736573" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32736573" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3546284" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966533" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.13855422" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.27108434" />
       <window_info anchor="right" id="Key Promoter X" order="6" weight="0.3299866" />
-      <window_info anchor="right" id="Database" order="7" weight="0.3299866" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32931727" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
@@ -805,24 +799,154 @@
     <MESSAGE value="更新依赖" />
     <MESSAGE value="tag标签起用" />
     <MESSAGE value="任务5" />
-    <option name="LAST_COMMIT_MESSAGE" value="任务5" />
+    <MESSAGE value="任务6 缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="任务6 缓存" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/hello.jsp">
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="180">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/uitl/ApiInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/model/vo/UserVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/job.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/TestJmeterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/JobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/http/Cookie.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+          <folding>
+            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2379#2380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/home.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/web/jquery-3.2.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/uitl/MemCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/img.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/page/img_body.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/uitl/token/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -831,365 +955,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/page/menu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/uitl/Jjwt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenm2/net/spy/spymemcached/2.12.3/spymemcached-2.12.3.jar!/net/spy/memcached/DefaultHashAlgorithm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="111" column="40" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
-          <folding>
-            <element signature="n#sql#0;n#mapper#0;n#!!top" />
-            <element signature="n#select#0;n#mapper#0;n#!!top" />
-            <element signature="n#delete#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#2;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#3;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#4;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#5;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#6;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#7;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#8;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#9;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#10;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#2;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#3;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#4;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#5;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#6;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#7;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#8;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#9;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#10;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#1;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#2;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#3;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#4;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#5;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#6;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#7;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#8;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#9;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#update#1;n#mapper#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/page/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/uitl/SpyMemcachedManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context-spymemcached.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenm2/com/googlecode/xmemcached/xmemcached/2.4.6/xmemcached-2.4.6.jar!/net/rubyeye/xmemcached/MemcachedClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/CookisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/UserTokenIDController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+        <state relative-caret-position="420">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/page/home_body.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4892">
+          <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/page/job_body.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="37" column="132" lean-forward="true" selection-start-line="37" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/page/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="87" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/ImgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="40" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/userController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/CookisController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenm2/redis/clients/jedis/3.1.0/jedis-3.1.0.jar!/redis/clients/jedis/BinaryJedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3738">
-          <caret line="228" column="40" lean-forward="true" selection-start-line="228" selection-start-column="40" selection-end-line="228" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/uitl/MemCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="-3573">
+          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/uitl/redis/ProtoStuffSerializerUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/uitl/redis/RedisUtil.java" />
-    <entry file="jar://$PROJECT_DIR$/../mavenm2/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+    <entry file="jar://$PROJECT_DIR$/../Java/jdk1.8.0_144/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2988">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/com/qcloud/cos_api/5.6.7/cos_api-5.6.7.jar!/com/qcloud/cos/model/EncryptedPutObjectRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/com/qcloud/cos_api/5.6.7/cos_api-5.6.7.jar!/com/qcloud/cos/COS.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4800">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/com/qcloud/cos_api/5.6.7/cos_api-5.6.7.jar!/com/qcloud/cos/transfer/MultipleFileUploadImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/TestJmeterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenm2/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="886" column="29" selection-start-line="886" selection-start-column="29" selection-end-line="886" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/jnshu/service/applicationContext.xml" />
-    <entry file="jar://$PROJECT_DIR$/../mavenm2/org/springframework/spring-test/5.1.9.RELEASE/spring-test-5.1.9.RELEASE.jar!/org/springframework/test/context/ContextConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenm2/org/springframework/spring-test/5.1.9.RELEASE/spring-test-5.1.9.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="226" selection-start-line="226" selection-end-line="226" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/jnshu/uitl/JwtTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="14" column="35" selection-start-column="2" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/jnshu/uitl/JjwtImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="32" selection-start-column="2" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/jnshu/uitl/DesUitlImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/jnshu/service/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="15" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.fxml" />
-    <entry file="jar://$PROJECT_DIR$/../mavenm2/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/com/qcloud/cos_api/5.6.7/cos_api-5.6.7.jar!/com/qcloud/cos/transfer/MultipleFileUpload.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://SpringLocalModels/module=task4">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SpringLocalModels</ID>
-          <OriginalElement>module=task4</OriginalElement>
-          <nodes>
-            <node x="0.0" y="66.25">module=task4</node>
-            <node x="156.0" y="66.25">fileset=task4/App Context Spymemcached</node>
-            <node x="460.0" y="5.25">filePath=D:/task4/src/main/resources/applicationContext.xml</node>
-            <node x="707.0" y="5.25">filePath=D:/task4/src/main/resources/redis.xml</node>
-            <node x="448.0" y="127.25">filePath=D:/task4/src/main/webapp/mvc-dispatcher-servlet.xml</node>
-            <node x="476.0" y="66.25">filePath=D:/task4/src/main/resources/xmemcached.xml</node>
-            <node x="168.5" y="0.0">fileset=task4/MVC application context</node>
-            <node x="135.0" y="132.5">fileset=task4/MVC mvc-dispatcher servlet context</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="fileset=task4/MVC mvc-dispatcher servlet context" target="filePath=D:/task4/src/main/webapp/mvc-dispatcher-servlet.xml">
-              <point x="116.5" y="-0.0" />
-              <point x="-89.5" y="5.25" />
-            </edge>
-            <edge source="module=task4" target="fileset=task4/MVC mvc-dispatcher servlet context">
-              <point x="27.5" y="7.0" />
-              <point x="-116.5" y="-0.0" />
-            </edge>
-            <edge source="filePath=D:/task4/src/main/resources/applicationContext.xml" target="filePath=D:/task4/src/main/resources/redis.xml">
-              <point x="77.5" y="-0.0" />
-              <point x="-38.0" y="-0.0" />
-            </edge>
-            <edge source="module=task4" target="fileset=task4/App Context Spymemcached">
-              <point x="27.5" y="-0.0" />
-              <point x="-95.5" y="-0.0" />
-            </edge>
-            <edge source="fileset=task4/App Context Spymemcached" target="filePath=D:/task4/src/main/resources/applicationContext.xml">
-              <point x="95.5" y="-7.0" />
-              <point x="368.0" y="69.75" />
-              <point x="-77.5" y="5.25" />
-            </edge>
-            <edge source="fileset=task4/App Context Spymemcached" target="filePath=D:/task4/src/main/webapp/mvc-dispatcher-servlet.xml">
-              <point x="95.5" y="7.0" />
-              <point x="368.0" y="83.75" />
-              <point x="-89.5" y="-5.25" />
-            </edge>
-            <edge source="fileset=task4/App Context Spymemcached" target="filePath=D:/task4/src/main/resources/xmemcached.xml">
-              <point x="95.5" y="-0.0" />
-              <point x="-61.5" y="-0.0" />
-            </edge>
-            <edge source="module=task4" target="fileset=task4/MVC application context">
-              <point x="27.5" y="-7.0" />
-              <point x="135.0" y="10.5" />
-              <point x="-83.0" y="-0.0" />
-            </edge>
-            <edge source="fileset=task4/MVC application context" target="filePath=D:/task4/src/main/resources/applicationContext.xml">
-              <point x="83.0" y="-0.0" />
-              <point x="-77.5" y="-5.25" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="32.0" y="-48.0" />
-          <SelectedNodes>
-            <node>filePath=D:/task4/src/main/resources/xmemcached.xml</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Show filesets as groups</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/xmemcached.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/xmemcached.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/com/qcloud/cos_api/5.6.7/cos_api-5.6.7.jar!/com/qcloud/cos/demo/MultipartUploadDemo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenm2/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/com/qcloud/cos_api/5.6.7/cos_api-5.6.7.jar!/com/qcloud/cos/model/ObjectMetadata.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14280">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        <state relative-caret-position="-2340">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/jnshu/uitl/MemCacheTest.java">
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/com/qcloud/cos_api/5.6.7/cos_api-5.6.7.jar!/com/qcloud/cos/model/PutObjectRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Java/jdk1.8.0_144/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="548" selection-start-line="5" selection-start-column="548" selection-end-line="5" selection-end-column="548" />
+        <state relative-caret-position="274">
+          <caret line="16" column="92" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="92" />
           <folding>
-            <element signature="n#bean#0;n#beans#0;n#!!top" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redisTest.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/service/JobService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="160" column="31" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="31" />
+        <state relative-caret-position="-1850">
+          <caret line="270" column="24" selection-start-line="270" selection-start-column="21" selection-end-line="270" selection-end-column="24" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/jnshu/service/UserServiceImplTest.java">
+    <entry file="jar://$PROJECT_DIR$/../Java/jdk1.8.0_144/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        <state relative-caret-position="252">
+          <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/com/qcloud/cos_api/5.6.7/cos_api-5.6.7.jar!/com/qcloud/cos/model/PutObjectResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mavenm2/com/qcloud/cos_api/5.6.7/cos_api-5.6.7.jar!/com/qcloud/cos/COSClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="736" column="79" selection-start-line="736" selection-start-column="68" selection-end-line="736" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/jnshu/service/CheckNumServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/uitl/encoder/SMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1198,59 +1119,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/jnshu/uitl/redisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+        <state relative-caret-position="330">
+          <caret line="356" lean-forward="true" selection-start-line="356" selection-end-line="356" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ssl#0;class#redisTest#0" />
+            <element signature="method#postHttp#0;class#redisTest#0" />
+            <element signature="method#sui#0;class#redisTest#0" />
+            <element signature="method#base#0;class#redisTest#0" />
+            <element signature="method#mail#0;class#redisTest#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/model/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="448">
+          <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/jnshu/service/JobServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/JobController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="432">
+          <caret line="118" column="43" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/service/JobServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/service/CheckNumServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+        <state relative-caret-position="412">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/service/CheckNumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/userController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3148">
+          <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/page/user_body.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/uitl/TencentCloudCos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
